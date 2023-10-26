@@ -1,6 +1,6 @@
 ﻿namespace Recetario_App
 {
-    partial class Form1
+    partial class Recetario_App
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,12 +28,43 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            button1 = new Button();
+            recipePanel = new Panel();
+            SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.Location = new Point(51, 78);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 0;
+            button1.Text = "Recetas";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // recipePanel
+            // 
+            recipePanel.AutoScroll = true;
+            recipePanel.Location = new Point(355, 19);
+            recipePanel.Name = "recipePanel";
+            recipePanel.Size = new Size(471, 403);
+            recipePanel.TabIndex = 1;
+            // 
+            // Recetario_App
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(874, 450);
+            Controls.Add(recipePanel);
+            Controls.Add(button1);
+            Name = "Recetario_App";
+            Text = "Recetas";
+            ResumeLayout(false);
         }
 
         #endregion
+
+        private Button button1;
+        private Panel recipePanel;
     }
 }
