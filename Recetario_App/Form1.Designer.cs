@@ -34,9 +34,9 @@
             // 
             // button1
             // 
-            button1.Location = new Point(51, 78);
+            button1.Location = new Point(12, 19);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(214, 66);
             button1.TabIndex = 0;
             button1.Text = "Recetas";
             button1.UseVisualStyleBackColor = true;
@@ -45,16 +45,16 @@
             // recipePanel
             // 
             recipePanel.AutoScroll = true;
-            recipePanel.Location = new Point(355, 19);
+            recipePanel.Location = new Point(268, 19);
             recipePanel.Name = "recipePanel";
-            recipePanel.Size = new Size(471, 403);
+            recipePanel.Size = new Size(235, 403);
             recipePanel.TabIndex = 1;
             // 
             // Recetario_App
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(874, 450);
+            ClientSize = new Size(584, 450);
             Controls.Add(recipePanel);
             Controls.Add(button1);
             Name = "Recetario_App";
