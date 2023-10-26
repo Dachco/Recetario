@@ -17,3 +17,4 @@ C:\Users\Rame\Desktop\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario
 C:\Users\Rame\Desktop\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.genruntimeconfig.cache
 C:\Users\Rame\Desktop\Recetario\Recetario_App\obj\Debug\net6.0-windows\ref\Recetario_App.dll
 C:\Users\Rame\Desktop\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.Recetario_App.resources
+C:\Users\Rame\Desktop\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.Form2.resources

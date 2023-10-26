@@ -68,13 +68,25 @@ namespace Recetario_App
                         Tag = receta,
                         Location = new Point(10, yPosition)
                     };
+
+                    Button modifyButton = new Button
+                    {
+                        Text = "Modificar",
+                        Tag = receta,
+                        Location = new Point(100, yPosition)
+                    };
+
                     detailsButton.Click += DetailsButton_Click;
+                    modifyButton.Click += modifyButton_Click;
+
 
                     yPosition += detailsButton.Height + 10;
 
                     recipePanel.Controls.Add(nameLabel);
                     recipePanel.Controls.Add(difficultyLabel);
                     recipePanel.Controls.Add(detailsButton);
+                    recipePanel.Controls.Add(modifyButton);
+
                 }
             }
             catch (Exception ex)
@@ -100,6 +112,26 @@ namespace Recetario_App
             MessageBox.Show(message, "Detalles de la Receta", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
+        //mofificar receta
+        private void modifyButton_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.MostrarBoton1 = true;
+            form2.MostrarBoton2 = false;
+            form2.Show();
+
+        }
+
+
+        //agregar receta
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form2 form2 = new Form2();
+            form2.MostrarBoton1 = false;
+            form2.MostrarBoton2 = true;
+            form2.Show();
+
+        }
 
     }
 }

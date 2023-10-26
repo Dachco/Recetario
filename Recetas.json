@@ -1,92 +1,92 @@
 [
-    {
-        "nombre": "Ensalada César",
-        "dificultad": "Fácil",
-        "ingredientes": [
-            "Lechuga romana",
-            "Pan tostado",
-            "Pollo a la parrilla",
-            "Parmesano rallado",
-            "Salsa César"
-        ],
-        "pasos": [
-            "Lava y corta la lechuga romana en trozos",
-            "Tuesta el pan y córtalo en cubos",
-            "Cocina el pollo a la parrilla y córtalo en tiras",
-            "Mezcla todos los ingredientes en un tazón grande",
-            "Añade la salsa César y espolvorea con queso parmesano"
-        ]
-    },
-    {
-        "nombre": "Tacos de Pescado",
-        "dificultad": "Media",
-        "ingredientes": [
-            "Filetes de pescado blanco",
-            "Harina de maíz",
-            "Salsa de crema agria",
-            "Repollo rallado",
-            "Tomate en cubos",
-            "Cilantro fresco"
-        ],
-        "pasos": [
-            "Corta los filetes de pescado en tiras",
-            "Pasa las tiras de pescado por harina de maíz y fríelas hasta que estén doradas",
-            "En un tortilla, coloca las tiras de pescado, la salsa de crema agria, el repollo rallado, los tomates y el cilantro",
-            "Dobla la tortilla por la mitad y sirve"
-        ]
-    },
-    {
-        "nombre": "Spaghetti Carbonara",
-        "dificultad": "Media",
-        "ingredientes": [
-            "Spaghetti",
-            "Huevos",
-            "Panceta",
-            "Queso Pecorino",
-            "Pimienta negra"
-        ],
-        "pasos": [
-            "Cocina los spaghetti según las instrucciones del paquete",
-            "Saltea la panceta en una sartén grande",
-            "Mezcla los huevos y el queso Pecorino en un tazón aparte",
-            "Cuando los spaghetti estén listos, escúrrelos y mézclalos con la panceta",
-            "Añade pimienta negra al gusto y sirve"
-        ]
-    },
-    {
-        "nombre": "Tacos de Pescado",
-        "dificultad": "Media",
-        "ingredientes": [
-            "Filetes de pescado blanco",
-            "Harina de maíz",
-            "Salsa de crema agria",
-            "Repollo rallado",
-            "Tomate en cubos",
-            "Cilantro fresco"
-        ],
-        "pasos": [
-            "Corta los filetes de pescado en tiras",
-            "Pasa las tiras de pescado por harina de maíz y fríelas hasta que estén doradas",
-            "En un tortilla, coloca las tiras de pescado, la salsa de crema agria, el repollo rallado, los tomates y el cilantro",
-            "Dobla la tortilla por la mitad y sirve"
-        ]
-    },
-    {
-        "nombre": "Tacos de Pescado",
-        "dificultad": "Media",
-        "ingredientes": [
-            "Filetes de pescado blanco",
-            "Harina de maíz",
-            "Salsa de crema agria",
-            "Repollo rallado",
-            "Tomate en cubos",
-            "Cilantro fresco"
-        ],
-        "pasos": [
-            "Corta los filetes de pescado en tiras",
-            "Pasa las tiras de pescado por harina de maíz y fríelas hasta que estén doradas",
-            "En un tortilla, coloca las tiras de pescado, la salsa de crema agria, el repollo rallado, los tomates y el cilantro",
-            "Dobla la tortilla por la mitad y sirve"
-        ]
-    }
+  {
+    "Nombre": "Ensalada César",
+    "Dificultad": "Facil",
+    "Ingredientes": [
+      "Lechuga romana",
+      "Pan tostado",
+      "Pollo a la parrilla",
+      "Parmesano rallado",
+      "Salsa César"
+    ],
+    "Pasos": [
+      "Lava y corta la lechuga romana en trozos",
+      "Tuesta el pan y córtalo en cubos",
+      "Cocina el pollo a la parrilla y córtalo en tiras",
+      "Mezcla todos los ingredientes en un tazón grande",
+      "Añade la salsa César y espolvorea con queso parmesano"
+    ]
+  },
+  {
+    "Nombre": "Tacos de Pescado",
+    "Dificultad": "Intermedia",
+    "Ingredientes": [
+      "Filetes de pescado blanco",
+      "Harina de maíz",
+      "Salsa de crema agria",
+      "Repollo rallado",
+      "Tomate en cubos",
+      "Cilantro fresco"
+    ],
+    "Pasos": [
+      "Corta los filetes de pescado en tiras",
+      "Pasa las tiras de pescado por harina de maíz y fríelas hasta que estén doradas",
+      "En un tortilla, coloca las tiras de pescado, la salsa de crema agria, el repollo rallado, los tomates y el cilantro",
+      "Dobla la tortilla por la mitad y sirve"
+    ]
+  },
+  {
+    "Nombre": "Spaghetti Carbonara",
+    "Dificultad": "Dificil",
+    "Ingredientes": [
+      "Spaghetti",
+      "Huevos",
+      "Panceta",
+      "Queso Pecorino",
+      "Pimienta negra"
+    ],
+    "Pasos": [
+      "Cocina los spaghetti según las instrucciones del paquete",
+      "Saltea la panceta en una sartén grande",
+      "Mezcla los huevos y el queso Pecorino en un tazón aparte",
+      "Cuando los spaghetti estén listos, escúrrelos y mézclalos con la panceta",
+      "Añade pimienta negra al gusto y sirve"
+    ]
+  },
+  {
+    "Nombre": "Falsa Carbonara",
+    "Dificultad": "Facil",
+    "Ingredientes": [
+      "Pasta",
+      "Mantequilla",
+      "Huevo",
+      "Leche",
+      "Queso",
+      "Tocino"
+    ],
+    "Pasos": [
+      "Cocinar la pasta al gusto",
+      "Derretir la mantequilla y colocar la pasta",
+      "Agregar el huevo, la leche y el tocino",
+      "Mezclar hasta que este incorporado",
+      "Servir y disfrutar"
+    ]
+  },
+  {
+    "Nombre": "Arroz Chino",
+    "Dificultad": "Facil",
+    "Ingredientes": [
+      "Arroz",
+      "Perro",
+      "gato",
+      "pollito"
+    ],
+    "Pasos": [
+      "Prepare el arroz",
+      "Sazone los animales",
+      "pongalos en el fuego",
+      "mezcle todo",
+      "disfrute"
+    ]
+  }
 ]
