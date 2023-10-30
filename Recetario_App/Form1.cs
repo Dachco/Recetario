@@ -67,8 +67,9 @@ namespace Recetario_App
 
                     Button detailsButton = new Button
                     {
-                        Text = "Ver Receta",
+                        Text = "Receta",
                         Tag = receta,
+                        AutoSize = true,
                         Location = new Point(10, yPosition)
                     };
 
@@ -76,14 +77,16 @@ namespace Recetario_App
                     {
                         Text = "Modificar",
                         Tag = receta,
-                        Location = new Point(90, yPosition)
+                        AutoSize = true,
+                        Location = new Point(95, yPosition)
                     };
 
                     Button deleteButton = new Button
                     {
                         Text = "Eliminar",
                         Tag = receta,
-                        Location = new Point(170, yPosition)
+                        AutoSize = true,
+                        Location = new Point(180, yPosition)
                     };
 
                     detailsButton.Click += DetailsButton_Click;

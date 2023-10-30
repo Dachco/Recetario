@@ -1,6 +1,6 @@
 [
   {
-    "Nombre": "Tostadas de Aguacate",
+    "Nombre": "Tostadas de Aguacates",
     "Dificultad": "Fácil",
     "Img": "C:\\Users\\Nitag\\Documents\\Trabajos amor\\Recetario\\img\\Tostadas de aguacate.jpg",
     "Ingredientes": [
@@ -46,7 +46,7 @@
   {
     "Nombre": "Lasaña Casera",
     "Dificultad": "Intermedio",
-    "Img": "C:\\Users\\Rame\\Desktop\\Recetario\\img\\LasanaCasera.jpg",
+    "Img": "C:\\Users\\Nitag\\Documents\\Trabajos amor\\Recetario\\img\\Lasaña Casera.jpg",
     "Ingredientes": [
       "Pasta para lasaña",
       "Carne molida de res",
@@ -147,7 +147,7 @@
   {
     "Nombre": "Sopa de Mariscos",
     "Dificultad": "Difícil",
-    "Img": "C:\\Users\\Rame\\Desktop\\Recetario\\img\\SopaMariscos.jpg",
+    "Img": "C:\\Users\\Nitag\\Documents\\Trabajos amor\\Recetario\\img\\bandeja paisa.jpg",
     "Ingredientes": [
       "Mejillones",
       "Camarones",
