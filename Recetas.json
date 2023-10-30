@@ -74,7 +74,7 @@
   {
     "Nombre": "Sushi de Salmón",
     "Dificultad": "Intermedio",
-    "Img": "C:\\Users\\Rame\\Desktop\\Recetario\\img\\SushideSalmon.jpg",
+    "Img": "C:\\Users\\Nitag\\Documents\\Trabajos amor\\Recetario\\img\\Sushi de Salmón.jpg",
     "Ingredientes": [
       "Arroz para sushi",
       "Salmón fresco",
@@ -96,9 +96,9 @@
     ]
   },
   {
-    "Nombre": "Filete Mignon con Salsa de Vino Tinto",
+    "Nombre": "Filete Mignon en Vino tinto",
     "Dificultad": "Difícil",
-    "Img": "C:\\Users\\Rame\\Desktop\\Recetario\\img\\FileteMignon.jpg",
+    "Img": "C:\\Users\\Nitag\\Documents\\Trabajos amor\\Recetario\\img\\Filete Mignon con Salsa de Vino Tinto.jpg",
     "Ingredientes": [
       "Filete Mignon",
       "Aceite de oliva",
@@ -122,7 +122,7 @@
   {
     "Nombre": "Risotto de Champiñones",
     "Dificultad": "Intermedio",
-    "Img": "C:\\Users\\Rame\\Desktop\\Recetario\\img\\RisottoChampinones.jpg",
+    "Img": "C:\\Users\\Nitag\\Documents\\Trabajos amor\\Recetario\\img\\Risotto de Champiñones.jpg",
     "Ingredientes": [
       "Arroz Arborio",
       "Champiñones",
@@ -147,7 +147,7 @@
   {
     "Nombre": "Sopa de Mariscos",
     "Dificultad": "Difícil",
-    "Img": "C:\\Users\\Nitag\\Documents\\Trabajos amor\\Recetario\\img\\bandeja paisa.jpg",
+    "Img": "C:\\Users\\Nitag\\Documents\\Trabajos amor\\Recetario\\img\\sopa de mariscos.jpg",
     "Ingredientes": [
       "Mejillones",
       "Camarones",
@@ -170,6 +170,40 @@
       "Vierte el caldo de pescado, azafrán y otros ingredientes.",
       "Cocina a fuego lento hasta que los mariscos y el pescado estén cocidos.",
       "Sirve caliente y disfruta de esta sopa de mariscos."
+    ]
+  },
+  {
+    "Nombre": "Bandeja Paisa",
+    "Dificultad": "Difícil",
+    "Img": "C:\\Users\\Nitag\\Documents\\Trabajos amor\\Recetario\\img\\bandeja paisa.jpg",
+    "Ingredientes": [
+      "Carne molida",
+      "Chicharron",
+      "Arroz blanco",
+      "Frijoles Rojos",
+      "Plantanos",
+      "Huevo frito",
+      "Arepa",
+      "Hogado",
+      "Aguacate",
+      "Morcilla",
+      "Longaniza"
+    ],
+    "Pasos": [
+      "Machaca el aguacate con un tenedor y agrégale jugo de limón, sal y pimienta al gusto",
+      "Cocina el arroz blanco siguiendo las instrucciones del paquete y resérvalo",
+      "Mientras cocinas los frijoles y el arroz, puedes freír los huevos en una sartén con un poco de aceite hasta que las yemas estén cocidas pero aún líquidas, si prefieres. Resérvalos",
+      "Prepara el chicharrón: fría los trozos de carne de cerdo en aceite caliente hasta que estén crujientes y dorados. Escúrrelos sobre papel absorbente y resérvalos",
+      "Cocina la morcilla en agua hirviendo durante unos minutos para calentarla. Luego, córtala en rodajas y resérvala",
+      "Cocina la longaniza en una sartén hasta que esté dorada y cocida por dentro. Luego, córtala en trozos y resérvala",
+      "Fría las arepas en un poco de aceite caliente hasta que estén doradas por ambos lados. Resérvalas",
+      "Corta el aguacate por la mitad, retira el hueso y saca la pulpa",
+      "Machaca el aguacate con un tenedor y agrégale jugo de limón, sal y pimienta al gusto",
+      "Monta la bandeja paisa en un plato grande de la siguiente manera: coloca una porción de arroz blanco en un extremo del plato, al lado de los frijoles rojos. Luego, agrega el chicharrón, el huevo frito, la morcilla y la longaniza",
+      "Sirve las arepas en otro plato o en el mismo plato si hay espacio",
+      "Añade el aguacate machacado en un pequeño tazón o sobre el plato",
+      "Sirve la bandeja paisa acompañada de hogao (salsa de cebolla y tomate) y rodajas de plátano maduro frito",
+      "Disfruta de tu deliciosa bandeja paisa"
     ]
   }
 ]

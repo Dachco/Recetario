@@ -11,17 +11,21 @@ using Newtonsoft.Json;
 using System.IO;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Security.Cryptography.X509Certificates;
+using static System.Windows.Forms.DataFormats;
 
 namespace Recetario_App
 {
     public partial class Form2 : Form
     {
+
         public Receta Receta { get; set; }
         public string nombreReceta;
         public string fileJSon = @"C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetas.json";
         public Form2()
         {
             InitializeComponent();
+    
+
         }
 
         // que boton se oprime
@@ -111,13 +115,19 @@ namespace Recetario_App
                 // Escribe la lista en el archivo
                 File.WriteAllText(fileJSon, recetasJson);
 
-                MessageBox.Show("Receta agregada a Recetas.json");
+                MessageBox.Show("Receta agregada");
+                this.Close();
+   
+
+
+
             }
             catch (Exception ex)
             {
                 MessageBox.Show("Error al agregar la receta: " + ex.Message);
             }
         }
+
 
 
 
@@ -163,7 +173,9 @@ namespace Recetario_App
                         // Escribe la lista en el archivo
                         File.WriteAllText(fileJSon, recetasJson);
 
-                        MessageBox.Show("Receta modificada en Recetas.json");
+                        MessageBox.Show("Receta modificada");
+                        this.Close();
+
                     }
                     else
                     {

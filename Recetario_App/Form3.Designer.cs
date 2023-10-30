@@ -39,34 +39,36 @@
             // 
             // panelIMG
             // 
-            panelIMG.Location = new Point(47, 24);
+            panelIMG.Location = new Point(54, 32);
+            panelIMG.Margin = new Padding(3, 4, 3, 4);
             panelIMG.Name = "panelIMG";
-            panelIMG.Size = new Size(233, 213);
+            panelIMG.Size = new Size(266, 284);
             panelIMG.TabIndex = 0;
             // 
             // label1
             // 
-            label1.Location = new Point(12, 250);
+            label1.Location = new Point(14, 333);
             label1.Name = "label1";
-            label1.Size = new Size(299, 23);
+            label1.Size = new Size(342, 31);
             label1.TabIndex = 1;
             label1.Text = "INGREDIENTES";
-            label1.TextAlign = ContentAlignment.MiddleCenter;
+            label1.TextAlign = ContentAlignment.BottomCenter;
             // 
             // label3
             // 
-            label3.Location = new Point(331, 24);
+            label3.Location = new Point(378, 32);
             label3.Name = "label3";
-            label3.Size = new Size(275, 23);
+            label3.Size = new Size(314, 31);
             label3.TabIndex = 3;
             label3.Text = "RECETA";
             label3.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // buttonRegresar
             // 
-            buttonRegresar.Location = new Point(486, 401);
+            buttonRegresar.Location = new Point(555, 535);
+            buttonRegresar.Margin = new Padding(3, 4, 3, 4);
             buttonRegresar.Name = "buttonRegresar";
-            buttonRegresar.Size = new Size(120, 37);
+            buttonRegresar.Size = new Size(137, 49);
             buttonRegresar.TabIndex = 5;
             buttonRegresar.Text = "Atras";
             buttonRegresar.UseVisualStyleBackColor = true;
@@ -75,38 +77,40 @@
             // textBoxPasos
             // 
             textBoxPasos.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
-            textBoxPasos.Location = new Point(331, 109);
+            textBoxPasos.Location = new Point(378, 145);
+            textBoxPasos.Margin = new Padding(3, 4, 3, 4);
             textBoxPasos.Multiline = true;
             textBoxPasos.Name = "textBoxPasos";
             textBoxPasos.ReadOnly = true;
             textBoxPasos.ScrollBars = ScrollBars.Vertical;
-            textBoxPasos.Size = new Size(275, 286);
+            textBoxPasos.Size = new Size(314, 380);
             textBoxPasos.TabIndex = 6;
             // 
             // textBoxIngedientes
             // 
-            textBoxIngedientes.Location = new Point(12, 288);
+            textBoxIngedientes.Location = new Point(14, 384);
+            textBoxIngedientes.Margin = new Padding(3, 4, 3, 4);
             textBoxIngedientes.Multiline = true;
             textBoxIngedientes.Name = "textBoxIngedientes";
             textBoxIngedientes.ReadOnly = true;
             textBoxIngedientes.ScrollBars = ScrollBars.Vertical;
-            textBoxIngedientes.Size = new Size(299, 150);
+            textBoxIngedientes.Size = new Size(341, 199);
             textBoxIngedientes.TabIndex = 7;
             // 
             // labelDificultad
             // 
-            labelDificultad.Location = new Point(331, 69);
+            labelDificultad.Location = new Point(378, 92);
             labelDificultad.Name = "labelDificultad";
-            labelDificultad.Size = new Size(275, 23);
+            labelDificultad.Size = new Size(314, 31);
             labelDificultad.TabIndex = 8;
             labelDificultad.Text = "Dificultad :";
             labelDificultad.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // Form3
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(618, 450);
+            ClientSize = new Size(706, 600);
             Controls.Add(labelDificultad);
             Controls.Add(textBoxIngedientes);
             Controls.Add(textBoxPasos);
@@ -114,6 +118,7 @@
             Controls.Add(label3);
             Controls.Add(label1);
             Controls.Add(panelIMG);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form3";
             Text = "Receta";
             ResumeLayout(false);

@@ -9,6 +9,7 @@ namespace Recetario_App
 {
     public partial class Recetario_App : Form
     {
+
         public Recetario_App()
         {
             InitializeComponent();
@@ -16,6 +17,14 @@ namespace Recetario_App
         public string fileJSon = @"C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetas.json";
         private void button1_Click(object sender, EventArgs e)
         {
+            cargar();
+        }
+        public void cargar()
+        {
+            checkBoxFacil.Checked = false;
+            checkBoxIntermedio.Checked = false;
+            checkBoxDificil.Checked = false;
+
             try
             {
                 List<Receta> recetas = JsonConvert.DeserializeObject<List<Receta>>(File.ReadAllText(fileJSon));
@@ -62,7 +71,7 @@ namespace Recetario_App
 
                     Label img = new Label
                     {
-                        Text =  receta.Img,
+                        Text = receta.Img,
                     };
 
                     Button detailsButton = new Button
@@ -112,7 +121,6 @@ namespace Recetario_App
                 MessageBox.Show("Error: " + ex.Message);
             }
         }
-
         private void DetailsButton_Click(object sender, EventArgs e)
         {
             Button button = (Button)sender;
@@ -277,8 +285,9 @@ namespace Recetario_App
 
                     Button detailsButton = new Button
                     {
-                        Text = "Ver Receta",
+                        Text = "Receta",
                         Tag = receta,
+                        AutoSize = true,
                         Location = new Point(10, yPosition)
                     };
 
@@ -286,6 +295,7 @@ namespace Recetario_App
                     {
                         Text = "Modificar",
                         Tag = receta,
+                        AutoSize = true,
                         Location = new Point(90, yPosition)
                     };
 
@@ -294,6 +304,7 @@ namespace Recetario_App
                     {
                         Text = "Eliminar",
                         Tag = receta,
+                        AutoSize = true,
                         Location = new Point(170, yPosition)
                     };
 
