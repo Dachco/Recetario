@@ -18,7 +18,7 @@ namespace Recetario_App
     {
         public Receta Receta { get; set; }
         public string nombreReceta;
-
+        public string fileJSon = @"C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetas.json";
         public Form2()
         {
             InitializeComponent();
@@ -79,20 +79,19 @@ namespace Recetario_App
             if (label6.Text == "Cargar imagen")
             {
                 MessageBox.Show("No se ha cargado ninguna imagen.");
-                return; // Salir de la función
+                return; 
             }
 
-            string rutaArchivo = @"C:\Users\Rame\Desktop\Recetario\Recetas.json";
 
             try
             {
                 List<Receta> recetas;
 
                 // Verifica si el archivo ya existe
-                if (File.Exists(rutaArchivo))
+                if (File.Exists(fileJSon))
                 {
                     // Lee el contenido actual del archivo JSON
-                    string contenido = File.ReadAllText(rutaArchivo);
+                    string contenido = File.ReadAllText(fileJSon);
 
                     // Deserializa el contenido en una lista de objetos Receta
                     recetas = JsonConvert.DeserializeObject<List<Receta>>(contenido);
@@ -110,7 +109,7 @@ namespace Recetario_App
                 string recetasJson = JsonConvert.SerializeObject(recetas, Formatting.Indented);
 
                 // Escribe la lista en el archivo
-                File.WriteAllText(rutaArchivo, recetasJson);
+                File.WriteAllText(fileJSon, recetasJson);
 
                 MessageBox.Show("Receta agregada a Recetas.json");
             }
@@ -132,17 +131,16 @@ namespace Recetario_App
             List<string> ingredientesRecetaModificar = textBox3.Text.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries).ToList();
             List<string> pasosRecetaModificar = textBox4.Text.Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries).ToList();
 
-            string rutaArchivo = @"C:\Users\Rame\Desktop\Recetario\Recetas.json";
 
             try
             {
                 List<Receta> recetas;
 
                 // Verifica si el archivo ya existe
-                if (File.Exists(rutaArchivo))
+                if (File.Exists(fileJSon))
                 {
                     // Lee el contenido actual del archivo JSON
-                    string contenido = File.ReadAllText(rutaArchivo);
+                    string contenido = File.ReadAllText(fileJSon);
 
                     // Deserializa el contenido en una lista de objetos Receta
                     recetas = JsonConvert.DeserializeObject<List<Receta>>(contenido);
@@ -163,7 +161,7 @@ namespace Recetario_App
                         string recetasJson = JsonConvert.SerializeObject(recetas, Formatting.Indented);
 
                         // Escribe la lista en el archivo
-                        File.WriteAllText(rutaArchivo, recetasJson);
+                        File.WriteAllText(fileJSon, recetasJson);
 
                         MessageBox.Show("Receta modificada en Recetas.json");
                     }
@@ -194,7 +192,7 @@ namespace Recetario_App
             using (OpenFileDialog openFileDialog = new OpenFileDialog())
             {
                 // Configura el cuadro de diálogo
-                openFileDialog.Filter = "Archivos de imágenes|*.jpg;*.jpeg;*.png;*.gif;*.bmp|Todos los archivos|*.*";
+                openFileDialog.Filter = "Archivos de imágenes|*.jpg;*.jpeg;*.png;*.bmp|Todos los archivos|*.*";
                 openFileDialog.Title = "Selecciona una imagen";
 
                 if (openFileDialog.ShowDialog() == DialogResult.OK)

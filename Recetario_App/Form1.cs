@@ -13,12 +13,11 @@ namespace Recetario_App
         {
             InitializeComponent();
         }
-
+        public string fileJSon = @"C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetas.json";
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
-                string fileJSon = @"C:\Users\Rame\Desktop\Recetario\Recetas.json"; // Asegúrate de que la ruta sea correcta y que estés apuntando a un archivo JSON válido
                 List<Receta> recetas = JsonConvert.DeserializeObject<List<Receta>>(File.ReadAllText(fileJSon));
 
                 // Borra todos los controles existentes en el Panel antes de agregar los nuevos
@@ -160,12 +159,12 @@ namespace Recetario_App
             // Carga todas las recetas desde el archivo JSON en una lista.
 
             List<Receta> recetas;
-            string rutaArchivo = @"C:\Users\Rame\Desktop\Recetario\Recetas.json";
+
             try
             {
-                if (File.Exists(rutaArchivo))
+                if (File.Exists(fileJSon))
                 {
-                    string contenido = File.ReadAllText(rutaArchivo);
+                    string contenido = File.ReadAllText(fileJSon);
                     recetas = JsonConvert.DeserializeObject<List<Receta>>(contenido);
 
                     // Utiliza un bucle foreach para encontrar y eliminar la receta deseada
@@ -187,7 +186,7 @@ namespace Recetario_App
                             recetas.Remove(recetaEliminar); // Elimina la receta de la lista
                             string recetasJson = JsonConvert.SerializeObject(recetas, Formatting.Indented);
 
-                            File.WriteAllText(rutaArchivo, recetasJson); // Sobrescribe el archivo JSON con la lista actualizada
+                            File.WriteAllText(fileJSon, recetasJson); // Sobrescribe el archivo JSON con la lista actualizada
 
                             MessageBox.Show("Receta eliminada de Recetas.json");
                         }
@@ -218,7 +217,6 @@ namespace Recetario_App
         {
             try
             {
-                string fileJSon = @"C:\Users\Rame\Desktop\Recetario\Recetas.json"; // Asegúrate de que la ruta sea correcta y que estés apuntando a un archivo JSON válido
                 List<Receta> recetas = JsonConvert.DeserializeObject<List<Receta>>(File.ReadAllText(fileJSon));
 
                 List<Receta> recetasFiltradas = new List<Receta>();

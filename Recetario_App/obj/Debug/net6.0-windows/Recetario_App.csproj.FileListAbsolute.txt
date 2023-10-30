@@ -20,3 +20,25 @@ C:\Users\Rame\Desktop\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario
 C:\Users\Rame\Desktop\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.Form2.resources
 C:\Users\Rame\Desktop\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.Form3.resources
 C:\Users\Rame\Desktop\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.Properties.Resources.resources
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\bin\Debug\net6.0-windows\Recetario_App.exe
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\bin\Debug\net6.0-windows\Recetario_App.deps.json
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\bin\Debug\net6.0-windows\Recetario_App.runtimeconfig.json
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\bin\Debug\net6.0-windows\Recetario_App.dll
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\bin\Debug\net6.0-windows\Recetario_App.pdb
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.csproj.AssemblyReference.cache
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.Recetario_App.resources
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.Form2.resources
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.Form3.resources
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.Properties.Resources.resources
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.csproj.GenerateResource.cache
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.AssemblyInfoInputs.cache
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.AssemblyInfo.cs
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.csproj.CoreCompileInputs.cache
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.csproj.CopyComplete
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.dll
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\refint\Recetario_App.dll
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.pdb
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\Recetario_App.genruntimeconfig.cache
+C:\Users\Nitag\Documents\Trabajos amor\Recetario\Recetario_App\obj\Debug\net6.0-windows\ref\Recetario_App.dll
