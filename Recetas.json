@@ -1,92 +1,175 @@
 [
   {
-    "Nombre": "Ensalada César",
-    "Dificultad": "Facil",
+    "Nombre": "Tostadas de Aguacate",
+    "Dificultad": "Fácil",
+    "Img": "C:\\Users\\Rame\\Desktop\\Recetario\\img\\Pure de papa.jpg",
     "Ingredientes": [
-      "Lechuga romana",
-      "Pan tostado",
-      "Pollo a la parrilla",
-      "Parmesano rallado",
-      "Salsa César"
+      "Aguacate maduro",
+      "Pan integral",
+      "Limón",
+      "Sal",
+      "Pimienta negra",
+      "Chile en polvo (opcional)"
     ],
     "Pasos": [
-      "Lava y corta la lechuga romana en trozos",
-      "Tuesta el pan y córtalo en cubos",
-      "Cocina el pollo a la parrilla y córtalo en tiras",
-      "Mezcla todos los ingredientes en un tazón grande",
-      "Añade la salsa César y espolvorea con queso parmesano"
+      "Corta el aguacate por la mitad, retira el hueso y saca la pulpa.",
+      "Machaca el aguacate con un tenedor y agrégale jugo de limón, sal y pimienta al gusto.",
+      "Tuesta el pan integral.",
+      "Unta la mezcla de aguacate en las tostadas y añade chile en polvo si deseas un toque picante.",
+      "¡Listo para disfrutar!"
     ]
   },
   {
-    "Nombre": "Tacos de Pescado",
-    "Dificultad": "Intermedia",
+    "Nombre": "Pollo a la Parrilla con Ensalada",
+    "Dificultad": "Fácil",
+    "Img": "C:\\Users\\Rame\\Desktop\\Recetario\\img\\Pure de papa.jpg",
     "Ingredientes": [
-      "Filetes de pescado blanco",
-      "Harina de maíz",
-      "Salsa de crema agria",
-      "Repollo rallado",
-      "Tomate en cubos",
-      "Cilantro fresco"
+      "Pechugas de pollo",
+      "Aceite de oliva",
+      "Limón",
+      "Sal",
+      "Pimienta negra",
+      "Lechuga",
+      "Tomate",
+      "Pepino",
+      "Vinagre balsámico",
+      "Queso feta (opcional)"
     ],
     "Pasos": [
-      "Corta los filetes de pescado en tiras",
-      "Pasa las tiras de pescado por harina de maíz y fríelas hasta que estén doradas",
-      "En un tortilla, coloca las tiras de pescado, la salsa de crema agria, el repollo rallado, los tomates y el cilantro",
-      "Dobla la tortilla por la mitad y sirve"
+      "Sazona las pechugas de pollo con aceite de oliva, jugo de limón, sal y pimienta.",
+      "Asa el pollo a la parrilla hasta que esté cocido por completo.",
+      "Prepara una ensalada con lechuga, tomate, pepino y queso feta (si lo deseas).",
+      "Aliña la ensalada con aceite de oliva y vinagre balsámico al gusto.",
+      "Sirve el pollo a la parrilla junto a la ensalada y disfruta."
     ]
   },
   {
-    "Nombre": "Spaghetti Carbonara",
-    "Dificultad": "Dificil",
+    "Nombre": "Lasaña Casera",
+    "Dificultad": "Intermedio",
+    "Img": "C:\\Users\\Rame\\Desktop\\Recetario\\img\\LasanaCasera.jpg",
     "Ingredientes": [
-      "Spaghetti",
+      "Pasta para lasaña",
+      "Carne molida de res",
+      "Cebolla",
+      "Ajo",
+      "Salsa de tomate",
+      "Queso ricotta",
+      "Queso mozzarella",
+      "Queso parmesano",
       "Huevos",
-      "Panceta",
-      "Queso Pecorino",
+      "Albahaca fresca",
+      "Sal",
       "Pimienta negra"
     ],
     "Pasos": [
-      "Cocina los spaghetti según las instrucciones del paquete",
-      "Saltea la panceta en una sartén grande",
-      "Mezcla los huevos y el queso Pecorino en un tazón aparte",
-      "Cuando los spaghetti estén listos, escúrrelos y mézclalos con la panceta",
-      "Añade pimienta negra al gusto y sirve"
+      "Cocina la pasta para lasaña según las instrucciones del paquete y escúrrela.",
+      "En una sartén grande, cocina la carne molida con cebolla y ajo hasta que esté dorada.",
+      "Añade la salsa de tomate y albahaca fresca picada. Cocina a fuego lento durante unos minutos.",
+      "En un tazón, mezcla el queso ricotta, queso mozzarella, queso parmesano, huevos, sal y pimienta.",
+      "En un molde para horno, alterna capas de pasta, carne y mezcla de quesos.",
+      "Hornea a 180°C durante 30-40 minutos o hasta que esté dorada y burbujeante.",
+      "Deja reposar antes de servir."
     ]
   },
   {
-    "Nombre": "Falsa Carbonara",
-    "Dificultad": "Facil",
+    "Nombre": "Sushi de Salmón",
+    "Dificultad": "Intermedio",
+    "Img": "C:\\Users\\Rame\\Desktop\\Recetario\\img\\SushideSalmon.jpg",
     "Ingredientes": [
-      "Pasta",
+      "Arroz para sushi",
+      "Salmón fresco",
+      "Nori (hojas de alga)",
+      "Aguacate",
+      "Vinagre de arroz",
+      "Azúcar",
+      "Sal",
+      "Wasabi",
+      "Salsa de soja"
+    ],
+    "Pasos": [
+      "Cocina el arroz para sushi siguiendo las instrucciones del paquete. Luego, mézclalo con una combinación de vinagre de arroz, azúcar y sal para hacer el arroz de sushi.",
+      "Corta el salmón y el aguacate en tiras delgadas.",
+      "Coloca una hoja de nori en una esterilla de bambú y extiende una capa delgada de arroz sobre la mitad de la hoja.",
+      "Agrega tiras de salmón, aguacate y un poco de wasabi.",
+      "Enrolla el sushi con cuidado, sellando el borde con un poco de agua.",
+      "Corta el rollo en rodajas y sírvelo con salsa de soja."
+    ]
+  },
+  {
+    "Nombre": "Filete Mignon con Salsa de Vino Tinto",
+    "Dificultad": "Difícil",
+    "Img": "C:\\Users\\Rame\\Desktop\\Recetario\\img\\FileteMignon.jpg",
+    "Ingredientes": [
+      "Filete Mignon",
+      "Aceite de oliva",
       "Mantequilla",
-      "Huevo",
-      "Leche",
-      "Queso",
-      "Tocino"
+      "Chalotas",
+      "Vino tinto",
+      "Caldo de res",
+      "Romero fresco",
+      "Sal",
+      "Pimienta negra"
     ],
     "Pasos": [
-      "Cocinar la pasta al gusto",
-      "Derretir la mantequilla y colocar la pasta",
-      "Agregar el huevo, la leche y el tocino",
-      "Mezclar hasta que este incorporado",
-      "Servir y disfrutar"
+      "Sazona el filete Mignon con sal y pimienta.",
+      "En una sartén caliente con aceite de oliva, dora el filete Mignon a fuego alto hasta que esté dorado por ambos lados.",
+      "Transfiere el filete a una bandeja para horno y ásalo a 180°C hasta el punto de cocción deseado.",
+      "En la misma sartén, derrite mantequilla y saltea chalotas hasta que estén tiernas.",
+      "Añade vino tinto, caldo de res y romero fresco. Reduce la salsa a fuego lento.",
+      "Sirve el filete Mignon con la salsa de vino tinto."
     ]
   },
   {
-    "Nombre": "Arroz Chino",
-    "Dificultad": "Facil",
+    "Nombre": "Risotto de Champiñones",
+    "Dificultad": "Intermedio",
+    "Img": "C:\\Users\\Rame\\Desktop\\Recetario\\img\\RisottoChampinones.jpg",
     "Ingredientes": [
-      "Arroz",
-      "Perro",
-      "gato",
-      "pollito"
+      "Arroz Arborio",
+      "Champiñones",
+      "Cebolla",
+      "Caldo de champiñones",
+      "Vino blanco",
+      "Mantequilla",
+      "Queso parmesano",
+      "Aceite de oliva",
+      "Sal",
+      "Pimienta negra"
     ],
     "Pasos": [
-      "Prepare el arroz",
-      "Sazone los animales",
-      "pongalos en el fuego",
-      "mezcle todo",
-      "disfrute"
+      "En una sartén grande, saltea la cebolla y los champiñones en aceite de oliva hasta que estén dorados.",
+      "Añade el arroz Arborio y cocina durante unos minutos, revolviendo constantemente.",
+      "Vierte el vino blanco y cocina hasta que se evapore.",
+      "Agrega el caldo de champiñones caliente poco a poco, revolviendo constantemente hasta que el arroz esté tierno y cremoso.",
+      "Retira del fuego y mezcla con mantequilla y queso parmesano.",
+      "Sazona con sal y pimienta al gusto y sirve caliente."
+    ]
+  },
+  {
+    "Nombre": "Sopa de Mariscos",
+    "Dificultad": "Difícil",
+    "Img": "C:\\Users\\Rame\\Desktop\\Recetario\\img\\SopaMariscos.jpg",
+    "Ingredientes": [
+      "Mejillones",
+      "Camarones",
+      "Calamares",
+      "Pescado blanco",
+      "Cebolla",
+      "Ajo",
+      "Tomate",
+      "Caldo de pescado",
+      "Vino blanco",
+      "Aceite de oliva",
+      "Sal",
+      "Pimienta negra",
+      "Azafrán"
+    ],
+    "Pasos": [
+      "Lava y desbarba los mejillones. Pela y desvena los camarones.",
+      "En una olla grande, calienta aceite de oliva y saltea cebolla y ajo picados hasta que estén dorados.",
+      "Agrega el tomate y cocina unos minutos. Luego, añade el vino blanco y deja que se evapore el alcohol.",
+      "Vierte el caldo de pescado, azafrán y otros ingredientes.",
+      "Cocina a fuego lento hasta que los mariscos y el pescado estén cocidos.",
+      "Sirve caliente y disfruta de esta sopa de mariscos."
     ]
   }
 ]

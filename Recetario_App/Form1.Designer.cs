@@ -30,12 +30,11 @@
         {
             button1 = new Button();
             recipePanel = new Panel();
-            button2 = new Button();
-            checkBox1 = new CheckBox();
+            buttonAgregar = new Button();
+            checkBoxFacil = new CheckBox();
             label1 = new Label();
-            checkBox2 = new CheckBox();
-            label2 = new Label();
-            checkedListBox1 = new CheckedListBox();
+            checkBoxIntermedio = new CheckBox();
+            checkBoxDificil = new CheckBox();
             SuspendLayout();
             // 
             // button1
@@ -51,79 +50,73 @@
             // recipePanel
             // 
             recipePanel.AutoScroll = true;
-            recipePanel.Location = new Point(268, 19);
+            recipePanel.Location = new Point(232, 19);
             recipePanel.Name = "recipePanel";
-            recipePanel.Size = new Size(235, 403);
+            recipePanel.Size = new Size(271, 403);
             recipePanel.TabIndex = 1;
             // 
-            // button2
+            // buttonAgregar
             // 
-            button2.Location = new Point(12, 106);
-            button2.Name = "button2";
-            button2.Size = new Size(214, 76);
-            button2.TabIndex = 2;
-            button2.Text = "Agregar Receta";
-            button2.UseVisualStyleBackColor = true;
-            button2.Click += button2_Click;
+            buttonAgregar.Location = new Point(12, 106);
+            buttonAgregar.Name = "buttonAgregar";
+            buttonAgregar.Size = new Size(214, 76);
+            buttonAgregar.TabIndex = 2;
+            buttonAgregar.Text = "Agregar Receta";
+            buttonAgregar.UseVisualStyleBackColor = true;
+            buttonAgregar.Click += buttonAgregar_Click;
             // 
-            // checkBox1
+            // checkBoxFacil
             // 
-            checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(13, 215);
-            checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(104, 19);
-            checkBox1.TabIndex = 3;
-            checkBox1.Text = "Facil --> Dificil";
-            checkBox1.UseVisualStyleBackColor = true;
+            checkBoxFacil.AutoSize = true;
+            checkBoxFacil.Location = new Point(13, 230);
+            checkBoxFacil.Name = "checkBoxFacil";
+            checkBoxFacil.Size = new Size(50, 19);
+            checkBoxFacil.TabIndex = 3;
+            checkBoxFacil.Text = "Facil";
+            checkBoxFacil.UseVisualStyleBackColor = true;
+            checkBoxFacil.CheckedChanged += checkBoxFacil_CheckedChanged;
             // 
             // label1
             // 
-            label1.AutoSize = true;
-            label1.Location = new Point(12, 197);
+            label1.Font = new Font("Segoe UI", 15F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(12, 194);
             label1.Name = "label1";
-            label1.Size = new Size(39, 15);
+            label1.Size = new Size(71, 33);
             label1.TabIndex = 4;
             label1.Text = "Filtros";
             // 
-            // checkBox2
+            // checkBoxIntermedio
             // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(13, 240);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(104, 19);
-            checkBox2.TabIndex = 5;
-            checkBox2.Text = "Dificil --> Facil";
-            checkBox2.UseVisualStyleBackColor = true;
+            checkBoxIntermedio.AutoSize = true;
+            checkBoxIntermedio.Location = new Point(13, 255);
+            checkBoxIntermedio.Name = "checkBoxIntermedio";
+            checkBoxIntermedio.Size = new Size(84, 19);
+            checkBoxIntermedio.TabIndex = 5;
+            checkBoxIntermedio.Text = "Intermedio";
+            checkBoxIntermedio.UseVisualStyleBackColor = true;
+            checkBoxIntermedio.CheckedChanged += checkBoxIntermedio_CheckedChanged;
             // 
-            // label2
+            // checkBoxDificil
             // 
-            label2.AutoSize = true;
-            label2.Location = new Point(13, 274);
-            label2.Name = "label2";
-            label2.Size = new Size(76, 15);
-            label2.TabIndex = 6;
-            label2.Text = "Tipo de Dieta";
-            // 
-            // checkedListBox1
-            // 
-            checkedListBox1.FormattingEnabled = true;
-            checkedListBox1.Items.AddRange(new object[] { "Vegatariano", "Vegano", "Carnivoro" });
-            checkedListBox1.Location = new Point(13, 305);
-            checkedListBox1.Name = "checkedListBox1";
-            checkedListBox1.Size = new Size(120, 94);
-            checkedListBox1.TabIndex = 7;
+            checkBoxDificil.AutoSize = true;
+            checkBoxDificil.Location = new Point(12, 280);
+            checkBoxDificil.Name = "checkBoxDificil";
+            checkBoxDificil.Size = new Size(56, 19);
+            checkBoxDificil.TabIndex = 6;
+            checkBoxDificil.Text = "Dificil";
+            checkBoxDificil.UseVisualStyleBackColor = true;
+            checkBoxDificil.CheckedChanged += checkBoxDificil_CheckedChanged;
             // 
             // Recetario_App
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(515, 450);
-            Controls.Add(checkedListBox1);
-            Controls.Add(label2);
-            Controls.Add(checkBox2);
+            Controls.Add(checkBoxDificil);
+            Controls.Add(checkBoxIntermedio);
             Controls.Add(label1);
-            Controls.Add(checkBox1);
-            Controls.Add(button2);
+            Controls.Add(checkBoxFacil);
+            Controls.Add(buttonAgregar);
             Controls.Add(recipePanel);
             Controls.Add(button1);
             Name = "Recetario_App";
@@ -136,11 +129,10 @@
 
         private Button button1;
         private Panel recipePanel;
-        private Button button2;
-        private CheckBox checkBox1;
+        private Button buttonAgregar;
+        private CheckBox checkBoxFacil;
         private Label label1;
-        private CheckBox checkBox2;
-        private Label label2;
-        private CheckedListBox checkedListBox1;
+        private CheckBox checkBoxIntermedio;
+        private CheckBox checkBoxDificil;
     }
 }
